@@ -9,7 +9,7 @@ export default class Certificate extends Component {
                     My Certificate
                 </div>
                 <div className={styles.list}>
-
+                    
                 </div>
             </div>
         )

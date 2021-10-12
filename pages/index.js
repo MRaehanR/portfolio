@@ -7,13 +7,13 @@ import styles from "../styles/Index.module.css";
 
 export default function Index() {
   return (
-    <div className={styles.container}>      
-        <div className={styles.sidebar}>
-          <Sidebar/>
-        </div>       
-        <div className={styles.body}>
-          <Certificate />
-        </div>      
+    <div className={styles.container}>
+      <div className={styles.sidebar}>
+        <Sidebar />
+      </div>
+      <div className={styles.body}>
+        
+      </div>
     </div>
   );
 }

@@ -12,6 +12,7 @@ import {
   faCertificate,
   faHome,
 } from "@fortawesome/free-solid-svg-icons";
+import Link from 'next/link'
 
 function Sidebar() {
   return (
@@ -31,33 +32,33 @@ function Sidebar() {
         </div>
         <div className={styles.social}>
           <div className={styles.socialItem}>
-            <a href="#">
+            <Link href="https://www.instagram.com/orsterdohm/" passHref>
               <FontAwesomeIcon icon={faInstagram} size="lg" color="#fff" />
-            </a>
+            </Link>
           </div>
           <div className={styles.socialItem}>
-            <a href="#">
+            <Link href="https://github.com/MRaehanR" passHref>
               <FontAwesomeIcon icon={faGithub} size="lg" color="#fff" />
-            </a>
+            </Link>
           </div>
           <div className={styles.socialItem}>
-            <a href="#">
+            <Link href="https://www.linkedin.com/in/raehan-robban-488994203/" passHref>
               <FontAwesomeIcon icon={faLinkedin} size="lg" color="#fff" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className={styles.nav}>
           <div className={styles.navlink}>
             <FontAwesomeIcon icon={faHome} />
-            <a href="#">Me</a>
+            <Link href="/">Home</Link>
           </div>
           <div className={styles.navlink}>
             <FontAwesomeIcon icon={faBookOpen} />
-            <a href="#">Portfolio</a>
+            <Link href="/portfolio">Portfolio</Link>
           </div>
           <div className={styles.navlink}>
             <FontAwesomeIcon icon={faCertificate} />
-            <a href="#">Certificate</a>
+            <Link href="/certificate">Certificate</Link>
           </div>
         </div>
       </div>
