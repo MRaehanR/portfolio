@@ -54,7 +54,7 @@ function Sidebar() {
           </div>
           <div className={styles.navlink}>
             <FontAwesomeIcon icon={faBookOpen} />
-            <Link href="/portfolio">Portfolio</Link>
+            <Link href="https://github.com/MRaehanR">Portfolio</Link>
           </div>
           <div className={styles.navlink}>
             <FontAwesomeIcon icon={faCertificate} />
